@@ -1,6 +1,6 @@
 {
-  "name": "react-native-android-shadow",
-  "version": "1.0.0",
+  "name": "@treenewbie/react-native-android-shadow",
+  "version": "1.0.1",
   "description": "",
   "nativePackage": true,
   "main": "index.js",
@@ -9,12 +9,13 @@
     "build": ":",
     "release": "wnpm-release --no-shrinkwrap"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "keywords": ["react-native"],
   "author": "",
   "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TreeNewbie/react-native-android-shadow"
+  },
   "peerDependencies": {
     "react": ">=15.4.1",
     "react-native": ">=0.38.0"
